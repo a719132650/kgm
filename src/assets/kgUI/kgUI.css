@@ -1,0 +1,61 @@
+/*
+author : Kigooo
+verson : 0.0.3
+update date : 2022-02-14
+*/
+
+/*def*/
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding:0;
+}
+div{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+a{
+    text-decoration:none;
+    color: #409EFF;
+    cursor: pointer;
+}
+
+/*font size*/
+.k-fs12{font-size: 12px !important;}
+.k-fs14{font-size: 14px !important;}
+.k-fs16{font-size: 16px !important;}
+.k-fs18{font-size: 18px !important;}
+.k-fs20{font-size: 20px !important;}
+.k-fs24{font-size: 24px !important;}
+.k-fs26{font-size: 26px !important;}
+.k-fs28{font-size: 28px !important;}
+.k-fs30{font-size: 30px !important;}
+.k-fs32{font-size: 32px !important;}
+
+/*width*/
+.k-w100p{width: 100% !important;}
+.k-w60p{width: 60% !important;}
+
+/*margin*/
+.k-mt20{margin-top: 20px!important;}
+.k-mt30{margin-top: 30px!important;}
+.k-mb20{margin-bottom: 20px!important;}
+.k-mb30{margin-bottom: 30px!important;}
+
+/*font bold*/
+.k-bold{font-weight:bold !important;}
+.k-b600{font-weight:600 !important;}
+
+/*btn*/
+.k-btn28{height: 28px; padding: 0px 14px;}
+.k-btn32{height: 32px; padding: 0px 14px;}
+.k-btn40{height: 40px; padding: 0px 14px;}
+
+/*btn def*/
+.k-searchBtnReset{height: 28px; padding: 0px 14px;}
+.k-searchBtnCollapse{background-color: #19BE6B; border-color: #19BE6B; color: #fff; padding-left: 7px!important; padding-right: 6px!important;}
+.k-searchBtnCollapse:hover{background-color: #1BCB73; border-color: #1BCB73; color: #fff;}
+.k-searchBtnExport{background-color: #2DB7F5 !important; border-color: #2DB7F5 !important; color: #fff !important;}
+.k-searchBtnExport:hover{background-color: #3cbcf6 !important; border-color: #3cbcf6 !important; color: #fff !important;}

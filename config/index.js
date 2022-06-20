@@ -19,7 +19,7 @@ module.exports = {
       '/ap': {//前端路由匹配模式
         // target:'http://81.68.234.119:8080', // 腾讯云
         // target:'http://10.30.1.102:8080', // 102
-        target:'http://localhost:8080',
+        target:'http://81.68.234.119:8080',
         secure:false,
         changeOrigin: true,  //设置请求头
         pathRewrite: {
@@ -29,7 +29,7 @@ module.exports = {
     },
 
     // Various Dev Server settings
-    host: 'localhost', // can be overwritten by process.env.HOST
+    host: '47.101.199.104', // can be overwritten by process.env.HOST
     port: 8081, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
